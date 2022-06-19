@@ -12,6 +12,10 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 8px; /* This should keep the containers from touching edges */
 }
 
 .profile-image {
@@ -45,4 +49,16 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  flex-flow: row;
+  gap: 8px;
+  padding: 0; /* set parameters to 0 in case you get weird output */
+}
+
+
+
+.left, .right{
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
