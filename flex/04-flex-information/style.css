@@ -10,6 +10,8 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  padding: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +25,22 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.container{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+
+  /* can also do this but output is a little different since gap it constant
+
+    justify-content: center;
+    gap: 200px;
+    
+  */
+}
+.item{
+  flex-flow: column wrap;
+  text-align: center;
+  width: 200px;
 }
