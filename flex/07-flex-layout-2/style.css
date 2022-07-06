@@ -6,7 +6,7 @@ body {
   flex-direction: column;
 }
 
-.body {
+.butt {
   display: flex;  
   flex-grow: 1;
 }
